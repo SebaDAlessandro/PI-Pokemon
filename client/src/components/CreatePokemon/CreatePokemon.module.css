@@ -1,0 +1,147 @@
+.container {
+    display: grid;
+    grid-auto-rows: 130px, auto, 130px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-image: url("../../images/dark-bgd.jpg");
+    background-size: cover;
+  }
+  
+  .funcional {
+    width: 10%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+  }
+  
+  .logo {
+    width: 100px;
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+  
+  .link {
+    color: #006eff;
+    background-color: rgb(19, 19, 19, 0.7);
+    border: 1px solid #006eff;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 6px 25px;
+    font-size: 16px;
+    margin: 10px 0px;
+    transition: all 1s ease-in-out;
+  }
+  
+  .link:hover {
+    box-shadow:0px 0px 25px 13px #006eff inset;
+    color: white;
+  }
+  
+  .main {
+    display: grid;
+    gap: 20px;
+    background-image: no-repeat center/80%;
+    justify-items: center;
+  }
+  
+  .formContainer {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 0px 30px;
+  }
+  
+  
+  .footer {
+    background: black;
+    color: #fff;
+    padding-left: 10px;
+    font-weight: lighter;
+  }
+  
+  .inputContainer {
+    width: 100%;
+    margin-right: -30px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    gap: 6px;
+  }
+  
+  .inputContainer label {
+    text-align: left;
+    color: #fff;
+  }
+  
+  .inputContainer input {
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #006eff;
+  }
+  
+  .inputContainer input:focus {
+    outline: none;
+  }
+  
+  .btn {
+    margin: 10px 0px;
+    padding: 6px 16px;
+    color: #006eff;
+    background-color: rgb(19, 19, 19, 0.7);
+    border: 1px solid #006eff;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 1s ease-in-out;
+  }
+
+  .btn:hover {
+    box-shadow:0px 0px 25px 13px #006eff inset;
+    color: white;
+  }
+  
+  .inputContainer select {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #006eff;
+    box-shadow: none;
+  }
+  
+  .selected {
+    display: flex;
+    border: 1px solid #006eff;
+    border-radius: 8px;
+    min-width: 200px;
+    max-width: 50%;
+    height: 30px;
+    margin: 2px 0px;
+    justify-content: space-between;
+  }
+  
+  .p {
+    text-transform: capitalize;
+    color: #fff;
+    padding: 3px;
+    display: flex;
+    height: 23px;
+    margin-top: -2px;
+    margin-left: 2px;
+    justify-content: center;
+  }
+  
+  .btnDelete {
+    border: none;
+    border-radius: 15%;
+    padding: 10px;
+    padding: 6px;
+    color: #006eff;
+    background-color: rgb(19, 19, 19, 0.7);
+    border: 1px solid #006eff;
+  }

@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-left: 600px;
+    padding-right: 600px;
+  }
+  
+  h3 {
+    text-align: center;
+    color: red;
+  }
